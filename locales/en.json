@@ -1,8 +1,27 @@
 {
-	"Tap to set": "Tap to set",
-	"pages.mainPage.name": "Lights Open/Close",
-	"pages.mainPage.sections.sensors.name": "When something opens or closes",
-	"pages.mainPage.settings.sensor.name": "Select an open/close sensor",
-	"pages.mainPage.sections.lights.name": "Turn on and off these lights",
-	"pages.mainPage.settings.lights.name": "Select lights & switches"
+  "Tap to set": "Tap to set",
+  "pages.mainPage.name": "Pool Pump Control for Two-Speed Pumps",
+  "pages.mainPage.sections.sectionDescriptionText.name": "----------------------",
+  "pages.mainPage.settings.descriptionText.name": "Paragraph Heading",
+  "pages.mainPage.settings.descriptionText.description": "The Pool Control SmartApp (v0.3) is for people who have a pool with a two speed pump/filter system. This App can work in combination with other automations. In fact, it assumes you will use other Apps to do things like turn the pump on and off each day for a short period of time to keep the water cleen.  It is for this very reason that this App remembers the setting of the pump, and if another automation changes the pump setting while it is above the freeze setting, this SmartApp will not overide the changes initiated elsewhere. This makes this App's operation very compatible with other Apps and very intelligent.",
+  "pages.mainPage.sections.sectionTempSensor.name": "Which sensor should be monitored to detect the current temperature?",
+  "pages.mainPage.settings.tempSensor.name": "Select Temperature Sensor",
+  "pages.mainPage.sections.sectionTriggerTemp.name": "At what temperature should the pool turn on automatically?",
+  "pages.mainPage.settings.triggerTemp.name": "Temperature? (optional, defaults to 34.5F)",
+  "pages.mainPage.sections.sectionSwitchOnOff.name": "Which Switch is used to turn the pool pump on and off?",
+  "pages.mainPage.settings.switchOnOff.name": "Pool Motor Switch (on/off)?",
+  "pages.mainPage.sections.sectionSwitchLowHigh.name": "Which Switch is used to switch the pool from from High to Low?",
+  "pages.mainPage.settings.switchLowHigh.name": "Pool Motor Switch (low/high)?",
+  "pages.mainPage.sections.sectionSMS.name": "Via a push notification and/or an SMS message",
+  "pages.mainPage.settings.notifyContact.name": "Send notifications to",
+  "pages.mainPage.settings.phoneNumber.name": "Enter a Phone Number to an get SMS Notification",
+  "pages.mainPage.settings.pushNotify.name": "Notify me via Push Notification",
+  "pages.mainPage.settings.pushNotify.options.Yes.name": "Yes",
+  "pages.mainPage.settings.pushNotify.options.No.name": "No",
+  "pages.mainPage.settings.notifyText.name": "Message to send (optional, sends standard status message if not specified)",
+
+  "pages.mainPage.sections.sensors.name": "When something opens or closes",
+  "pages.mainPage.settings.sensor.name": "Select an open/close sensor",
+  "pages.mainPage.sections.lights.name": "Turn on and off these lights",
+  "pages.mainPage.settings.lights.name": "Select lights & switches"
 }
